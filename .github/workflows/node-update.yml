@@ -130,7 +130,7 @@ jobs:
 
                     // Determine API URL based on branch selection
                     const branch = '${{ github.event.inputs.branch }}' || 'main';
-                    const apiUrl = branch === 'dev' ? 'https://devapi.deforge.io/api/update-nodes' : 'https://api.deforge.io/api/update-nodes';
+                    const apiUrl = branch === 'dev' ? 'https://devapi.runanvil.io/api/update-nodes' : 'https://api.runanvil.io/api/update-nodes';
                     
                     console.log(`Using API URL: ${apiUrl} for branch: ${branch}`);
 
